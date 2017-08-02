@@ -42,7 +42,7 @@
                     "description": "The root ZNode that should be used in ZooKeeper. ZooKeeper provides a directory-like structure for storing data. Each directory in this structure is referred to as a ZNode. This denotes the root ZNode, or directory, that should be used for storing data. The default value is /nifi. This is important to set correctly, as which cluster the NiFi instance attempts to join is determined by which ZooKeeper instance it connects to and the ZooKeeper Root Node that is specified.",
                     "type": "string",
                     "default": "/nifi"
-                },                
+                },
                 "cluster": {
                     "description": "EXPERIMENTAL: Set this to true if the instance is a node in a cluster. The default value is false.",
                     "type": "boolean",
